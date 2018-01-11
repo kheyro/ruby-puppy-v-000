@@ -9,4 +9,9 @@ class Dog
   def clear_all
     @@all.empty
   end
+
+  def self.all 
+    @@all.each { |dog| puts dog.name }
+  end
+  
 end
