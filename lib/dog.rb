@@ -9,6 +9,4 @@ class Dog
   def clear_all
     @@all.empty
   end
-
-  
 end
