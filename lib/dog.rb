@@ -10,8 +10,8 @@ class Dog
     @@all.empty
   end
 
-  def self.all 
+  def self.all
     @@all.each { |dog| puts dog.name }
   end
-  
+
 end
